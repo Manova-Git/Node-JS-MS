@@ -59,7 +59,7 @@ jobs:
           application_name: shopping-ms
           environment_name: Shoppingms-env
           version_label: "ver-${{ github.sha }}"
-          region: eu-central-1
+          region: us-east-2
           deployment_package: deploy.zip
 
       
